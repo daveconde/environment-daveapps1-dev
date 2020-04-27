@@ -1,0 +1,12 @@
+apiVersion: jenkins.io/v1
+kind: App
+metadata:
+  annotations:
+    jenkins.io/chart-description: A Helm chart for Kubernetes
+    jenkins.io/chart-repository: http://chartmuseum-jx.35.233.119.210.nip.io
+  creationTimestamp: null
+  labels:
+    jenkins.io/app-name: dconde-appstest1
+    jenkins.io/app-version: 0.0.1
+  name: dconde-appstest1
+spec: {}

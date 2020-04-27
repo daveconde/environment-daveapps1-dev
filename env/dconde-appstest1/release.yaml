@@ -1,0 +1,26 @@
+apiVersion: jenkins.io/v1
+kind: Release
+metadata:
+  creationTimestamp: "2020-04-27T12:11:46Z"
+  deletionTimestamp: null
+  name: '{{ .Chart.Name }}-{{ .Chart.Version | replace "+" "_" }}'
+spec:
+  commits:
+  - author:
+      accountReference:
+      - provider: jenkins.io/git-github-userid
+      email: dconde@cloudbees.com
+      name: David Conde
+    branch: master
+    committer: {}
+    message: |
+      Draft create
+    sha: 6981d4130d94c8e7d273ba0b79037aa07b3a66d1
+  gitCloneUrl: https://github.com/daveconde/dconde-appstest1.git
+  gitHttpUrl: https://github.com/daveconde/dconde-appstest1
+  gitOwner: daveconde
+  gitRepository: dconde-appstest1
+  name: '{{ .Chart.Name }}'
+  releaseNotesURL: https://github.com/daveconde/dconde-appstest1/releases/tag/v0.0.1
+  version: v0.0.1
+status: {}
