@@ -1,0 +1,10 @@
+adminUser:
+  password: vault:daveapps1/adminUser:password
+  username: admin
+enableDocker: false
+pipelineUser:
+  email: dconde@cloudbees.com
+  token: vault:daveapps1/pipelineUser:token
+  username: daveconde
+prow:
+  hmacToken: vault:daveapps1/prow:hmacToken
