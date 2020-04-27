@@ -1,0 +1,7 @@
+dependencies:
+- host: github.com
+  owner: daveconde
+  repo: dconde-appstest1
+  url: https://github.com/daveconde/dconde-appstest1.git
+  version: ""
+  versionURL: ""
