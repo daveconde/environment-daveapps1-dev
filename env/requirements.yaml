@@ -24,3 +24,6 @@ dependencies:
 - name: dconde-appstest1
   repository: http://chartmuseum-jx.35.233.119.210.nip.io
   version: 0.0.1
+- name: jx-app-cheese
+  repository: http://chartmuseum.jenkins-x.io
+  version: 0.0.41
