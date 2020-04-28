@@ -1,0 +1,8 @@
+goarch:
+- amd64
+- i386
+- x86_64
+goos:
+- darwin
+- linux
+- windows
